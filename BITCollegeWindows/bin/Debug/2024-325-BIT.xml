@@ -1,0 +1,23 @@
+<?xml version="1.0"">
+<!-- Registration and Grading file -->
+
+<student_update date="2022-01-01" program="CA" checksum="20021682">
+   <transaction>
+        <program>CA</program>
+        <student_no>10010823</student_no>
+        <course_no>*</course_no>
+        <registration_no>216</registration_no>
+        <type>2</type> <!-- Invalid transaction type -->
+        <grade>90.4</grade>
+        <notes>Valid Grade Update</notes>
+    </transaction>
+    <transaction>
+        <program>CA</program>
+        <student_no>10010859</student_no> <!-- Invalid student number -->
+        <course_no>M-50032</course_no>
+        <registration_no>*</registration_no>
+        <type>1</type>
+        <grade>*</grade>
+        <notes>Valid Registration</notes>
+    </transaction>
+</student_update>

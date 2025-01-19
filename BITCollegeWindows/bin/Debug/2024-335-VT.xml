@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- Registration Grading file -->
+<student_update date="2024-11-30" program="VT" checksum="20021600">
+	<transaction>
+		<program>VT</program>
+		<student_no>10010800</student_no>
+		<course_no>*</course_no>
+		 <registration_no>113</registration_no> <!--Ensure Registration exists, and grade is null -->
+		<type>2</type>
+		<grade>93.2</grade> <!-- Make sure to test floating point grades! -->
+		<notes>Good grade update</notes>
+	</transaction>
+	<transaction>
+		<program>VT</program>
+		<student_no>10010800</student_no>
+		<course_no>G-200003</course_no> <!--Ensure any registrations with this course number are not null -->
+		<registration_no>*</registration_no>
+		<type>1</type>
+		<grade>*</grade>
+		<notes>Good registration</notes>
+	</transaction>
+</student_update>
